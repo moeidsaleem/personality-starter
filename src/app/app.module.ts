@@ -8,6 +8,9 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ApiProvider } from '../providers/api/api';
 
+//admob
+import { AdMob } from "ionic-admob";
+
 @NgModule({
   declarations: [
     MyApp,
@@ -24,7 +27,7 @@ import { ApiProvider } from '../providers/api/api';
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen,AdMob,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ApiProvider
   ]

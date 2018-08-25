@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>family</ion-title>
   </ion-navbar>
 
@@ -14,5 +14,95 @@
 
 
 <ion-content padding>
+
+
+
+<!--
+We will create a family tree using just CSS(3)
+The markup will be simple nested lists
+-->
+<div class="tree" text-center>
+	<ul>
+		<li>
+        <a href="#" class="husband">
+            <div>
+            <img src="./assets/imgs/father.jpg" alt="" style="width:80px;">
+          <br> <strong> Ikram Ullah Khan</strong>
+          </div>
+        </a>
+        <a href="#" class="wife">
+            <div>
+            <img src="./assets/imgs/mother.jpg" alt="" style="width:80px;">
+      <h6>Shaukat Khanam</h6> 
+
+      </div>   
+                
+        </a>		
+        	<ul>
+				<li>
+					<a href="#" class="husband">
+            <div>
+            <img src="./assets/imgs/imranm.jpg" alt="" style="width:80px;">
+           <h6> Imran Khan</h6>
+          </div>
+        </a>
+        <a href="#" class="wife">
+            <div>
+            <img src="./assets/imgs/jemima.jpg" alt="" style="width:80px;">
+           <h6> Jemima Khan</h6>
+          </div>
+        </a>
+					<ul>
+						<li>
+                <a href="#">
+                    <div>
+                        <img src="./assets/imgs/sulman.jpg" alt="" style="width:80px;">
+                      <p>Sulaiman Isa Khan</p>  
+                      </div>
+                    </a>
+            </li>
+            <li>     
+							<a href="#">
+                  <div>
+                      <img src="./assets/imgs/qasim.jpg" alt="" style="width:80px;">
+                    <p>Kasim Khan</p>  
+                    </div>
+                  </a>
+						</li>
+					</ul>
+				</li>
+				<!-- <li>
+					<a href="#">Child</a>
+					<ul>
+						<li><a href="#">Grand Child</a></li>
+						<li>
+							<a href="#">Grand Child</a>
+							<ul>
+								<li>
+									<a href="#">Great Grand Child</a>
+								</li>
+								<li>
+									<a href="#">Great Grand Child</a>
+								</li>
+								<li>
+									<a href="#">Great Grand Child</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">Grand Child</a></li>
+					</ul>
+				</li> -->
+			</ul>
+		</li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
 
 </ion-content>
